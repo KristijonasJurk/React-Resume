@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { FaAngleDoubleRight } from 'react-icons/fa'
+import data from './data'
 // ATTENTION!!!!!!!!!!
 // I SWITCHED TO PERMANENT DOMAIN
 const url = 'https://course-api.com/react-tabs-project'
@@ -8,15 +9,22 @@ function App() {
   const [jobs, setJobs] = useState([])
   const [value, setValue] = useState(0)
 
-  const fetchJobs = async () => {
-    const response = await fetch(url);
-    const newJobs = await response.json();
-    setJobs(newJobs)
+  // get data from api
+  // const fetchJobs = async () => {
+  //   const response = await fetch(url);
+  //   const newJobs = await response.json();
+  //   setJobs(newJobs)
+  //   setLoading(false)
+  // };
+  // get data from data.js
+  const getData = () => {
+    setJobs(data)
     setLoading(false)
-  };
+  }
 
   useEffect(() => {
-    fetchJobs()
+    // fetchJobs()
+    getData()
   }, []);
 
   if (loading) {
@@ -29,7 +37,7 @@ function App() {
   const { company, dates, duties, title } = jobs[value];
   return <section className="section">
     <div className="title">
-      <h2>experience</h2>
+      <h2>Kristijonas Jurkšas</h2>
       <div className="underline"></div>
     </div>
     <div className="jobs-center">
