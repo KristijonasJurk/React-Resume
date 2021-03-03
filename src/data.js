@@ -4,7 +4,7 @@ const data = [
     {
         company: "Summary",
         dates: "",
-        duties: ["A beginner programmer, with an engineering background, currently looking for a web developer internship. Since, finishing my Mechanical Engineering studies and working in the tech sector(CAD designing, CNC programming etc.), I have decided to pursue programming. Recently I finished a 6 month long Full-Stack developer course at the Baltic Institute of Technology (BIT), which gave me a great start. At this time, I invest most of my time learning the React library. For this reason I would value working experience using this library, but of course I am flexible and willing to learn new concepts. Finally, I have excellent English skills (C1 level) and I am motivated, persistent and talkative"
+        duties: ["Greetings, I am a student of Front-End programming at the Baltic Institute of Technology (BIT).  At the institute I studied HTML, CSS, PHP, JAVA, but most importantly JavaScript. From the first lines of JS code, I knew, that Front-End is the way to go. Perhaps, it is because I have experience working as a CAD designer, where details are the main priority. Or the experience I gained writing CNC code at a manufacturing company, where the slightest mistake could have consequences up to thousands of euros. Nevertheless, currently I am looking for a web developer internship. In the meantime, I am learning React. Interesting fact, this website was my first React project."
         ],
         id: "recAGJfiU4CeaV01HL",
         order: 2,
